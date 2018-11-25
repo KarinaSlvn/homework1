@@ -1,0 +1,50 @@
+table{
+    margin: 0 auto;
+    border-color: #565656;
+    width: 65%;
+    font-family: Arial;
+    font-weight: bold;
+}
+ul{
+    padding-left: 0;
+}
+ul li{
+    list-style-type: none;
+}
+
+tr:nth-child(n+2):nth-child(odd){
+    background-color: rgba(132,181,119,0.54);
+}
+ul li:before{
+    content: '✔';
+}
+img{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index: 1000;
+}
+.header{
+    background-color: #15713d;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.with-img{
+    width: 350px;
+    position: relative;
+}
+
+.center{
+    text-align: center;
+}
+#vegetables{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+#fruit{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
